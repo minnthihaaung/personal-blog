@@ -1,0 +1,28 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Home"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "Personal blog and portfolio of Min Thiha Aung"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "Min Thiha Aung"
+  email = "minnthihaaung.mm@gmail.com"
+  image = "img/about_me.png"
+  imageQuality = 96
+  headline = "Android Developer & Tech Instructor"
+  bio = "Passionate about mobile development and teaching technology."
+  links = [
+    { email = "mailto:minnthihaaung.mm@gmail.com" },
+    { github = "https://github.com/minnthihaaung" },
+    { linkedin = "https://www.linkedin.com/in/min-thiha-aung" },
+  ]

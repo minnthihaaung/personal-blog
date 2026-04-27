@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intro on Home</title>
+    <link>http://localhost:1313/tags/intro/</link>
+    <description>Recent content in Intro on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>minnthihaaung.mm@gmail.com (Min Thiha Aung)</managingEditor>
+    <webMaster>minnthihaaung.mm@gmail.com (Min Thiha Aung)</webMaster>
+    <copyright>© 2026 Min Thiha Aung</copyright>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Welcome to My Blog</title>
+      <link>http://localhost:1313/posts/welcome/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <author>minnthihaaung.mm@gmail.com (Min Thiha Aung)</author>
+      <guid>http://localhost:1313/posts/welcome/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
