@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on Home</title>
-    <link>http://localhost:1313/series/</link>
-    <description>Recent content in Series on Home</description>
+    <title>Future Tech on Home</title>
+    <link>http://localhost:1313/series/future-tech/</link>
+    <description>Recent content in Future Tech on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>minnthihaaung.mm@gmail.com (Min Thiha Aung)</managingEditor>
     <webMaster>minnthihaaung.mm@gmail.com (Min Thiha Aung)</webMaster>
     <copyright>© 2026 Min Thiha Aung</copyright>
-    <lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/future-tech/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Future Tech</title>
-      <link>http://localhost:1313/series/future-tech/</link>
+      <title>The Shift in Software Development: AI Trends in 2026</title>
+      <link>http://localhost:1313/blog/ai-trends-2026/</link>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
       <author>minnthihaaung.mm@gmail.com (Min Thiha Aung)</author>
-      <guid>http://localhost:1313/series/future-tech/</guid>
+      <guid>http://localhost:1313/blog/ai-trends-2026/</guid>
       <description></description>
       
     </item>
