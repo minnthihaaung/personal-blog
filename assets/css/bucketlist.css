@@ -1,0 +1,28 @@
+.bucketlist.prose :where(ul) {
+  list-style: none;
+  list-style-type: none;
+  padding-left: 0;
+  padding-inline-start: 0;
+  margin-left: 0;
+}
+
+.bucketlist.prose :where(ul > li) {
+  list-style: none;
+  list-style-type: none;
+  padding-left: 0;
+  padding-inline-start: 0;
+}
+
+.bucketlist.prose :where(ul > li)::marker {
+  content: none;
+}
+
+.bucketlist input[type="checkbox"] {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.bucketlist li.bucketlist-done {
+  opacity: 0.65;
+  text-decoration: line-through;
+}

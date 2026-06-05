@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <article class="max-w-full">
+    <header>
+      {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+        {{ partial "breadcrumbs.html" . }}
+      {{ end }}
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        {{ .Title | emojify }}
+      </h1>
+    </header>
+    <section class="bucketlist max-w-full mt-6 prose dark:prose-invert">
+      {{ .Content }}
+    </section>
+    <footer class="pt-8">
+      {{ partial "sharing-links.html" . }}
+    </footer>
+  </article>
+
+  {{ with resources.Get "css/bucketlist.css" }}
+    {{ $style := . | resources.Minify | resources.Fingerprint site.Params.fingerprintAlgorithm }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+  {{ end }}
+
+  {{ with resources.Get "js/bucketlist.js" }}
+    {{ $script := . | resources.Minify | resources.Fingerprint site.Params.fingerprintAlgorithm }}
+    <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
+  {{ end }}
+{{ end }}
