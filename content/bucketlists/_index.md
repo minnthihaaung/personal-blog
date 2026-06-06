@@ -20,3 +20,10 @@ showPagination: false
 - [ ] Extension cable
 - [ ] Inverter
 - [ ] ရေသန့်ဘူးတင်တဲ့စင်
+- [ ] Wifi
+- [ ] အမှိုက်ပုံး
+- [ ] Whiteboard
+- [ ] စာရေးကိရိယာ
+- [ ] First Aid
+- [ ] Bookshelf
+- [ ] Books
